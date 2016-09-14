@@ -1,5 +1,4 @@
 module.exports = {
-  token: '1234',
   adminPerms: [
     'KICK_MEMBERS',
     'BAN_MEMBERS',

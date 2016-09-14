@@ -14,7 +14,7 @@ const userConfig = require('../config');
 const options = rc('cordlr', {
   actions: path.join(__dirname, '../lib/actions'),
   prefix: '$',
-  token: userConfig.token
+  token: process.env.BOT_TOKEN
 });
 
 // Create bot.
