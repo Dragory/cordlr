@@ -28,7 +28,7 @@
   },
   "scripts": {
     "test": "tape test.js | tap-spec",
-    "start": "node bin/main.js"
+    "start": "npm link && node bin/main.js"
   },
   "bugs": {
     "url": "https://github.com/Devcord/cordlr/issues"
